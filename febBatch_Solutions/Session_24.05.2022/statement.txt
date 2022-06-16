@@ -1,0 +1,66 @@
+-->COMPRESS STRING
+
+Given a string st, compress it using the following algorithm:
+Begin with an empty string s. For each group of consecutive repeating characters in st:
+If the group's length is 1, append the character to s. Otherwise, append the character followed by the
+group's length.
+
+INPUT-
+2
+aabbcccaa
+abab
+
+OUTPUT-
+a2b2c3a2
+abab
+
+a2b2c3 
+abab 
+
+aabbccc 
+count=1 ans=""
+a==a count++;
+else if(count>1) ans+=str[i-1] ans+=count;
+else count==1 ans+=str[i-1];
+
+--> MODIFIED PALLINDROME
+
+Given a non-empty string s. You may delete at most one character. Return True if s can be made 
+palindrome, else return False.
+
+INPUT- 
+3
+aba
+abca
+abcd
+
+OUTPUT-
+True
+True
+False
+
+abba = abba
+abcd !=dcba
+
+abca!=acba 
+aba=aba 
+aca=aca 
+
+i=0,j=n-1
+abca 
+s[i]==s[j] a==a
+i++ j--
+s[i]!=s[j] b!=c
+if(i,j-1) is pallindrome ||
+if(i+1,j) is pallindrome 
+
+abcdcba
+while(i<j)
+
+abccdba
+cc is a pallindrome so return true 
+
+abcbcddba
+bcdd is a pallindrome  no 
+cbcd is a pallindrome  no
+return False 

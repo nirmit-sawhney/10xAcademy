@@ -1,0 +1,92 @@
+--> ADD STRINGS
+Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
+Note:
+The length of both num1 and num2 is < 5100.
+Both num1 and num2 contains only digits 0-9.
+Both num1 and num2 does not contain any leading zero.
+You MUST NOT convert the inputs to integer directly.
+Complete the addStrings function. It takes the input as two strings & you need to return the string 
+(which will same as the addition of two number as integers).
+
+input- 22 111 =22111
+output-133
+
+ 22
+111
+
+convert digit character to integer=c-'0'
+
+'2'-'0'=2 + '1'-'0'=1= 3
+let ans=""
+ans=sum.toString()+ans
+ans=3
+ans=sum+ans==3+3=33
+
+ans=33
+sum=1
+ans=sum+ans=1+33=133
+
+ 9
+99
+108
+sum=9+9=18
+ans=8+ans carry=1
+sum%10=currdigit
+sum/10=carry
+
+--> TREK 
+You went on a trek with HEC(Himalayan Explorers' Club). The trek was to a very beautiful place known as 
+Valley of Flowers'.
+For each step you took on the trek, you noted it down as U for Upward and D as Downward.
+
+INPUT-
+1
+8
+UDDDUDUU
+
+OUTPUT-
+1
+
+_/\      _
+   \    /
+    \/\/
+
+--> LONGEST SUBSTRING
+Given a string s, find the length of the longest substring without repeating characters.
+
+INPUT-
+3
+abcabcbb
+bbbbb
+
+
+OUTPUT-
+3
+1
+0
+
+map=new Map()
+key=character value=index
+i=0,j=0
+
+a->0
+b->1
+c->2
+j=0,i=2  len=3
+j=1 i=3
+
+--> LONG PRESSED
+Your friend is typing his name into a keyboard. Sometimes, when typing a character c, the key might get 
+long pressed, and the character will be typed 1 or more times.
+
+You examine the typed characters of the keyboard. Return True if it is possible that it was your friends
+name, with some characters (possibly none) being long pressed. Else return False
+
+INPUT-
+2
+alex aaleex
+saeed ssaaedd
+
+OUTPUT-
+True
+False

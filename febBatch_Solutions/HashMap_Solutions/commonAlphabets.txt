@@ -1,0 +1,55 @@
+PROBLEM->
+Given list of strings. The task is to find the frequency of the elements 
+which are common in all strings given in the list of strings.
+
+INPUT->
+3
+gefgekf   g->2
+gfgkgf   g->3
+kinfgg   g->2
+knpfg
+
+OUTPUT->
+f 1
+g 2
+k 1
+
+base map for string 1
+gefgekf
+     key->character
+     value->count of occurences
+g->2 1 0
+e->2
+f->2 1 0
+k->1 0
+
+temp map for all other strings
+gfgkgf
+     key->character
+     value->count of occur
+g->2
+f->2
+k->1
+
+base map=temp map
+base map
+g->2 1 0
+f->2 1
+k->1 0
+
+temp map
+kinfgg
+k->1
+f->1
+g->2
+
+base map=temp map
+k->1 0
+f->1 0
+g->2 1
+
+temp map
+knpfg
+k->1
+f->1
+g->1

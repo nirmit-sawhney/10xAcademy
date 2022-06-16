@@ -1,0 +1,11 @@
+2
+hughie homelander noir maeve hughie noir a-train stormfornt hughie noir a-train A-train
+
+map
+hughie->3
+homelander->1
+noir->3
+maeve->1
+a-train->2
+stormfornt->1
+A-train->1

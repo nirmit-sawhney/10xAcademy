@@ -1,0 +1,23 @@
+PROBLEM->
+One day Professor Xavier saw alphabets appearing on the stars. He was so fascinated by them that he 
+started making a list of numbers and for every new star, he inserted a number X into the list. This X 
+is equal to the no. of times the alphabet on the current star has previously appeared.
+
+After seeing N stars, he decided to stop and calculate the sum of all the N numbers.
+
+Professor Xavier has spent all his life watching stars and do not know how to add. Can you help him in finding the sum?
+
+INPUT->
+1
+5
+abaab
+
+OUTPUT->
+4
+
+0+0+1+2+1=4
+
+sum=0+1+2+1=4
+HASHMAP
+a->3
+b->2
