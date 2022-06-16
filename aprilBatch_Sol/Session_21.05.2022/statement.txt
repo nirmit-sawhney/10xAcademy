@@ -1,0 +1,78 @@
+--> PRODUCT SUM 
+Given an integer n, return the difference between the product of its digits and the sum of its digits. 
+Assume that n is a non-negative integer. (n>=0)
+
+INPUT- 234
+OUTPUT-> 15 
+
+sum=2+3+4=9
+pro=2*3*4=24
+res=24-9=15
+
+sum=0, pro=1
+n%10=4 sum+=4 pro*=4
+n=n/10 n=23
+n%10=3 sum=4+3 pro=4*3  sum=7 pro=12
+n=n/10 n=2
+n%10=2 sum=4+3+2 pro=4*3*2 sum=9 pro=24
+n=0
+
+res=pro-sum=24-9=15
+
+n=1234
+
+loop= n>0
+      n%10=4 sum=4 pro=4
+      n=n/10 =1234/10=123
+      n%10=3 sum=4+3 pro=4*3
+      n=n/10 123/10=12
+      n%10=2 sum=4+3+2 pro=4*3*2
+      n=n/10 12/10=1
+      n%10=1 sum=4+3+2+1 pro=4*3*2*1 
+      n=n/10 =0
+sum=10 pro=24
+res=pro-sum=24-10=14
+
+--> REDUCE TO ONE
+Given a number n. You are required to reduce the given number to 1. To do this you can substract any 
+number greater than equal to 2 from the given number. You can perform this operation any times. You are
+ required to tell the minimum number of operations required to do this or report its not possible.
+
+INPUT-
+2
+1
+3
+
+OUTPUT- 
+-1
+1
+
+4 =4-3 1
+100=100-99=1
+2=-1 
+
+--> MAX BY NOW
+You have been given n, denoting the number of input values. For each input, you have to print the maximum
+input taken so far.
+
+Note:
+You don't need to consider n in taking out this maximum.
+For the first input of n values, the max value will be that value itself.
+
+INPUT- 
+5
+3
+2
+5
+10
+8
+
+OUTPUT-
+3
+3
+5
+10
+10
+
+3 2 5 10 8
+3 3 5 10 10

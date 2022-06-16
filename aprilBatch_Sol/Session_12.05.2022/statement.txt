@@ -1,0 +1,84 @@
+-->SIGN NUM
+
+A signum function returns 1 for numbers greater than zero and -1 for numbers less than zero and 0 for an 
+input of 0. Write a signum implementation that takes a float N and returns an integer.
+
+INPUT-> -0.87
+OUTPUT-> -1
+
+three cases
+case 1-> num>0->positive number  return 1
+case 2-> num<0->negative number  return -1
+case 3-> num==0->num is zero     return 0
+
+
+-->Difference of sum of Even Odd Index numbers
+
+Write a function which takes a list of positive integers and returns the difference of sum of numbers
+at even and odd index positions. Your function should take the list, sum all the numbers which are 
+located at even index poistion of list and sum all the numbers which are located at odd index poistion
+of list and subtract odd postion sum from even position sum.
+
+INPUT-> [23,52,0,31,200]
+OUTPUT-> 140 
+
+23 52 0 31 200->array elements
+0  1  2 3  4  ->array indexes
+
+evensum-> sum of all elements present at even indexes 
+evensum=0+23+0+200=223
+
+oddsum-> sum of all elements present at odd indexes 
+oddsum=0+52+31=83
+
+res=evensum-oddsum=223-83=140
+
+-->PRINT WITH INDEX 
+
+You are given a function printWithIndex that takes a number and a string to print a message. 
+You are also given a list that contains n strings. Write a function named printer that uses 
+printWithIndex to print the list elements with their indices.
+
+INPUT->
+4
+hello
+cat
+dog
+raining
+
+OUTPUT->
+0 hello
+1 cat
+2 dog
+3 raining 
+
+["hello","cat","dog","raining"]
+ 0        1      2     3
+0 hello
+1 cat
+2 dog
+3 raining
+
+
+-->STRING REPEAT
+
+Write a function that takes in a string s and a positive integer n, and returns a replicated string r 
+such that r is n times s with space in between.
+
+INPUT->
+abc
+3
+
+OUTPUT->
+abc abc abc 
+
+abcd 
+5
+
+abcd abcd abcd abcd abcd 
+
+res=""
+inputString=abc 
+repeat=3
+res=abc+" "+abc+" "+abc
+res=abc abc abc
