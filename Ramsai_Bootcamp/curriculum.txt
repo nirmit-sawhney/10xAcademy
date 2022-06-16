@@ -1,0 +1,28 @@
+Data structures 
+full stack
+
+
+DATA STRUCTURES->Javascript --> Java
+Array
+String
+Hashset, Map
+sorting algorithms
+recursion
+
+*stack
+*queues
+*Linkedlist
+*trees
+*graph
+
+Full stack development
+Html
+Css
+Advanced Javascript
+React js
+Mongodb -->(Sql)
+Node js
+
+Project(final)-->instaclone
+
+Timings->8:30 am-9:30 am

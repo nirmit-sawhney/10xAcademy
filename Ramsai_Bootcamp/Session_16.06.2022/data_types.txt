@@ -1,0 +1,78 @@
+scripting language and programming language 
+web applications 
+
+->store data
+
+types of data 
+->Integer (0 1 2 67 -86)
+->String "hi" "hello"
+-> Boolean (true or false)
+-> undefined 
+-> Float (0.3 0.44 1.3)
+->big integer
+
+how to store data
+-> variables
+-> objects
+-> arrays
+
+keyword-> it is a reserved word in any programming langauge that is used for a specific purpose
+
+we can't use variable name as keyword
+
+to store data we have variables 
+
+to initialize a variable we have some keywords
+->var 
+->let
+->const
+
+--> var va_lue=3   (= is assignment operator, we are assigning 3 to value)
+--> var str="hi"
+
+dynamic language(static language such as c++ or java, int ,string,boolean)
+
+--> let x=4
+--> let x=5 , str="hello"
+
+CASE SENSITIVE LANGUAGE-> age Age AGE
+
+diff bw let var and const 
+
+var means the variable will have global scope 
+let means the variable will have only scope inside that block
+const means that the variable is constant and we can't reinitialize that
+
+let val=3
+val=10
+
+const val=3
+x (val=10)
+
+print something
+console.log()
+
+let val=3
+console.log(val)
+3
+
+-->operators(we can do mathematical operations)
+
++ operator
+
+let x=3,y=6
+let z=x+y
+console.log(z) ->9
+
+- opeator 
+let z=x-y -> -3
+
+* multiply operator 
+let z=x*y -> 18
+
+/ divide operator 
+let z=y/x ->2
+
+% modulus operator 
+for finding remainders 
+let z=y%x -> 0 (remainder)
