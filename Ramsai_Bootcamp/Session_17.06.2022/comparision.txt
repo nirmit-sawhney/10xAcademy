@@ -1,0 +1,41 @@
+for comparing two variables
+== and ===
+
+a=10 b=10
+
+a===b it will give true
+
+a="hi" b="hello"
+
+a==b it give false
+
+diff bw == and ===
+
+a="10" b=10
+a==b true
+a===b false 
+
+false=="" true 
+false==0 true 
+
+a="3" b=undefined
+a+b-> 3undefined
+
+a="hi" b="hello"
+a-b -> NAN (Not a number)
+
+typeof(NaN) -> Number
+
+a="4" b=true
+a-b-> 3
+
+false-0 true 1
+
+a=4 b=null
+a-b 4
+
+a=4 b=undefined 
+a+b -> NaN 
+
+a=null b=undefined 
+a+b-> NaN 
