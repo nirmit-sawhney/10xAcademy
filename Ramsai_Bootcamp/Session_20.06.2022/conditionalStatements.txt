@@ -1,0 +1,52 @@
+to check if condition is true or false. if true do this else do this.
+
+if statement
+
+syntax->
+if(cond) {
+    //write whatever we want to do if cond is true
+}
+
+let say we have a num=2
+we will be checking if num is +ve
+if(num>=0){
+    console.log(true);
+}
+
+now let say we want do something if the if statement is not true, so for that we have else statement 
+syntax->
+if(cond){
+    code that will execute when if is true
+} else {
+    code when if is not true
+}
+
+we will be checking if num is positive or negative
+num=-2
+if(num>=0){
+    console.log("positive");
+}else{
+    console.log("negative");
+}
+
+let say you want to do something if the if statement statement and then some more cond if the if statement
+doesn't execute 
+
+else if statement 
+syntax->
+if(cond){
+    code
+} else if(cond){
+    code
+} *else{
+
+}
+
+we have a num, we have to print if num is positive, negative or zero.
+if(num>0){
+    console.log("positive");
+} else if(num==0){
+    console.log("zero");
+} else{
+    console.log("negative");
+}

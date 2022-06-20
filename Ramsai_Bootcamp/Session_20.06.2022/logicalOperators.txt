@@ -1,0 +1,23 @@
+and operator &&
+
+cond1 && cond2  -> it will only execute if both cond are true
+
+if(cond1 && cond2){
+    code
+}
+
+OR operator ||
+
+cond1 || cond2  -> it will execute if any of the cond is true
+
+if(cond1 || cond2){
+    code 
+}
+
+NOT operator !
+
+var1!=var2  -> if var1 is not equal to var2 
+
+if(var1 != var2){
+    code 
+}
