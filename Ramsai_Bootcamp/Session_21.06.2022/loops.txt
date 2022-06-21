@@ -1,0 +1,37 @@
+Let's say we want to repeat our code n times, so here we will use loops.
+
+for loop 
+
+Syntax->
+for(initialize  ; condition ; increment){
+    code
+}
+
+let say we want to print all numbers from 1 to 10
+
+for(let x=1;x<=10;x++){
+    console.log(x);
+}
+
+while loop
+
+syntax->
+
+while(cond){
+    code
+
+    increment
+}
+
+let x=1;
+while(x<=10){
+    console.log(x);
+    x++;
+}
+
+do while loop 
+
+do{
+    code
+    increment
+}while(cond);
