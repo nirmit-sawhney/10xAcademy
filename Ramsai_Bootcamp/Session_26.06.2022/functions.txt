@@ -1,0 +1,65 @@
+function let us define a particular block of code.
+
+-> reusability
+-> to avoid redundancy
+-> easy maintainanence
+
+Syntax->
+
+function funcName(argu1, argu2.....) {
+    code
+}
+
+invokation
+funcName(param1, param2,....)
+
+example->
+
+will define a func that will print the name 
+
+function greet(name){
+    console.log("Hello", name);
+}
+
+let name1=readLine();
+let name2=readLine();
+
+/*** console.log("Hello", name1);
+console.log("Hello", name2);  **/
+
+greet(name1);
+greet(name2);
+
+arguments object
+function sum(val1, val2){
+    console.log(arguments[0],arguments[1]);//2 3
+    return val1+val2;//5
+}
+
+console.log(sum(2,3));//5
+
+Function Expressions
+
+var func= function (argu1){  //anonymous func
+    code
+}
+
+func(argu1);
+
+function showGreeting(name){
+    function greet() {
+        console.log("Hello", name);
+    }
+
+    greet();
+}
+
+Arrow Functions
+
+syntax->
+
+const func=()=>{
+    code
+}
+
+func();
