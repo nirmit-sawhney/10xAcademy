@@ -1,0 +1,54 @@
+array is a data structure to store data-> if have more than one value 
+
+let hobby="binge watching"
+
+let hobby1="", hobby2="",....
+
+Syntax->
+let array = [item1, item2, item3,....];
+
+let array = new Array("item1", "item2" ,,...);
+
+let array=[];
+
+Push operation-> to push an element at end of array 
+array.push(20);
+
+[20]
+
+array.push(40);
+
+[20, 40]
+
+array.push("hello")
+[20, 40, "hello"]
+
+Length
+array.length-> 3
+
+indexes in array 
+it always starts from 0 and go upto length-1
+
+array[0]=20
+
+array[2]="hello"
+
+array[3]=undefined
+
+array.pop()-> "hello"  -> delets the last element 
+[20, 40]
+
+array[0]=70-> first element 
+array[array.length-1]-> last element
+
+splice method
+[20, 40, "hello"]
+array.splice(1,1,100)
+[20, 100, "hello"]
+
+slice method 
+[20, 40, "hello"]
+array.slice(1)
+[40, "hello"]
+
+array.slice(0,2)
