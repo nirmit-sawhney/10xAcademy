@@ -1,0 +1,77 @@
+4 pillars of object oriented programming
+
+-> Abstraction
+-> Encapsulation
+-> Inheritance
+-> Polymorphism
+
+Abstraction-> To hide some of the implementation details to the end user. 
+
+Encapsulation-> Enclose the data or the methods.
+
+const Car= function(){
+    //mechanism
+    //private
+    const mech=()=>{
+        //code
+    }
+
+    //private 
+    const wiring=()=>{
+
+    }
+
+    const color="Black";
+    const price="7000000"
+
+    return {
+        color:color;
+        price:price;
+    };
+}
+
+Inheritance-> some resemblance of the code, some methods or some properties. Inherit the properties of a particular class
+              The class that inherites is base class and the class got inherited is parent class.
+
+class Vehicle{
+    constructor(wheels,type){
+        this.wheels=wheels;
+        this.type=type;
+    }
+    getDetails(){
+        return ...;
+    }
+    print(){
+        console.log("Hi from Vehicle class");
+    }
+}
+
+class Car extends Vehicle{
+    constructor(wheels,color,price,type){
+        super(wheels,type);
+        this.color=color;
+        this.price=price;
+    }
+    getDetails(){
+        //code
+    }
+    print(){
+        console.log("Hi from car class");
+    }
+}
+
+let car1=new Car(4,black,100000000,Car);
+car1.print();//hi from car class
+
+Polymorphism-> different forms of a same thing 
+
+function add(a,b){
+    return a + b;
+}
+
+function add(a,b,c){
+    return a + b+ c;
+}
+
+add(1,2);
+add(1,2,3);

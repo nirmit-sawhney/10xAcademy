@@ -1,0 +1,55 @@
+Control flow, functions, arrays and some other concepts
+
+OOPS CONCEPTS
+Object Oriented Programming
+
+Everything revolves around an object only
+
+Object->
+Unique Entity that holds some properties and methods
+
+let person={
+   name:"Nirmit",
+   origin:"India",
+   greet:function(){
+      return `Hello ${this.name}`
+   }
+}
+
+Object.create()
+
+Object Constructor
+
+function Person(firstName,lastName){
+   this.firstName=firstName;
+   this.lastName=lastName;
+}
+
+let person1=new Person("Ramsai","Vangavolu");
+let person2=new Person("Nirmit","Sawhney");
+
+Classes
+Blueprint code, or a template 
+
+class Car{
+   constructor(name,color,price,model){ //optional
+      this.name=name;
+      this.color=color;
+      this.price=price;
+      this.model=model;
+   }
+   getDetails(){
+      return `This is ${this.name} car having ${this.color} color with ${this.model} model and price is ${this.price}`;
+   }
+}
+
+let car1=new Car("Volvo","white",60,S80);
+let car2=...
+let car3=...
+
+class Race{
+   constructor(){ 
+      this.position=0;
+   }
+}
+let racer1=new Race();
