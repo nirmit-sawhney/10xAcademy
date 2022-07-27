@@ -1,0 +1,45 @@
+if we want to store a key value  pair so hashmap is used in that case
+
+A->1
+B->2
+C->3
+D->4
+
+let map=new Map();
+
+map.set('a',[1,5]);
+map.set('b',2);
+map.set('a',5);
+using set we can set the value for that key
+
+let val=map.get('a');//[1,5]
+
+if(map.has('a')){
+    console.log(map.get('a'));
+}
+
+console.log(map.size)
+
+map.delete('a')
+
+let arr=[1,2,3,4,5];
+
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+
+for(let val of arr){
+    console.log(val);
+}
+
+for(let [key,value] of map){
+    console.log(key,value);
+}
+
+for(let key of map.keys()){
+    console.log(map.get(key))
+}
+
+for(let val of map.values()){
+    console.log(value);
+}
